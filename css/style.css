@@ -1,0 +1,40 @@
+.container
+{
+    background-color: orange;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header
+{
+    background-color: blue;
+    flex-basis: 20%;
+    
+}
+main
+{
+    background-color: green;
+    flex-basis: 70%;
+   /* flex-direction: column;*/
+    display: flex;
+
+   
+    
+}
+nav{
+    background-color: yellow;
+    flex-grow: 1;
+}
+article{
+    background-color: darkcyan;
+    flex-grow: 2;
+}
+aside{
+    background-color: pink;
+    flex-grow: 1;
+}
+footer
+{
+    background-color: red;
+    flex-basis: 10%;
+}
